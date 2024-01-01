@@ -3,6 +3,7 @@
 git stash
 patch -p1 < patches/dwm-swallow-6.3.diff
 patch -p1 < patches/dwm-alpha-20230401-348f655.diff
+patch -p1 < patches/custom_config.diff
 
 ./patches/end_patch.sh
 
